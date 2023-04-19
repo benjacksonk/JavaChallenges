@@ -223,4 +223,39 @@ public class Challenges {
 
     }
 
+    public void countToTen() {
+
+        for(int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+    }
+
+    //make a method that counts from 10 to 1
+    public void countdownFromTen() {
+
+        for(int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+
+    }
+
+    //make a method that counts from 1 through 100 but in increments of 2
+    public void countToOneHundredByTwo() {
+
+        for(int i = 1; i <= 100; i += 2) {
+            System.out.println(i);
+        }
+
+    }
+
+    //make a method that counts from 0 to 50 but only prints even numbers
+    public void countEvensToFifty() {
+
+        for(int i = 0; i <= 50; i += 2) {
+            System.out.println(i);
+        }
+
+    }
+
 }

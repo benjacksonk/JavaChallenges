@@ -36,9 +36,14 @@ public class JavaChallengesApp {
 
 //        System.out.println(challenges.convertToUppercase());
 
-        System.out.println(challenges.convertToLowercase());
+//        System.out.println(challenges.convertToLowercase());
+//
+//        System.out.println(challenges.lengthOfWord());
 
-        System.out.println(challenges.lengthOfWord());
+        //challenges.countToTen();
+        //challenges.countdownFromTen();
+        //challenges.countToOneHundredByTwo();
+        challenges.countEvensToFifty();
 
     }
 
