@@ -8,25 +8,38 @@ public class JavaChallengesApp {
         // create a new instance of the challenges class for use in our application
         Challenges challenges = new Challenges();
 
-        // run the greeting method from our challenges to have it return a string greeting and
-        // stores it in the greeting variable we created
-        // store the string result of challenges' greeting method as greeting
-        String greeting = challenges.greeting("eric", 20);
+//        // store a String greeting the result of running the greeting method from our challenges
+//        // then print the greeting to the console
+//        String greeting = challenges.greeting("eric", 20);
+//        System.out.println(greeting);
+//
+//        String greetingWithUserInput = challenges.greetingWithUserInput();
+//        System.out.println(greetingWithUserInput);
+//
+//        int sum = challenges.addTwoNumbers();
+//        System.out.println("Sum: " + sum);
+//
+//        int subtraction = challenges.subtractTwoNumbers();
+//        System.out.println("Subtraction: " + subtraction);
+//
+//        int product = challenges.multiplyTwoNumbers();
+//        System.out.println("Product: " + product);
 
-        // print the greeting to the console
-        System.out.println(greeting);
+//        int interactiveCalculator = challenges.interactiveCalculator();
+//        System.out.println(interactiveCalculator);
 
-        String greetingWithUserInput = challenges.greetingWithUserInput();
-        System.out.println(greetingWithUserInput);
+//        System.out.println(challenges.coinFlip());
 
-        int sum = challenges.addTwoNumbers();
-        System.out.println("Sum: " + sum);
+//        System.out.print(challenges.findTheBiggestNumber());
 
-        int difference = challenges.subtractTwoNumbers();
-        System.out.println("Difference: " + difference);
+//        System.out.print("The difference is: " + challenges.findTheDifferenceBetweenTwoNumbers());
 
-        int product = challenges.multiplyTwoNumbers();
-        System.out.println("Product: " + product);
+//        System.out.println(challenges.convertToUppercase());
+
+        System.out.println(challenges.convertToLowercase());
+
+        System.out.println(challenges.lengthOfWord());
+
     }
 
 }
