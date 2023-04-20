@@ -252,10 +252,14 @@ public class Challenges {
     //make a method that counts from 0 to 50 but only prints even numbers
     public void countEvensToFifty() {
 
-        for(int i = 0; i <= 50; i += 2) {
-            System.out.println(i);
-        }
+        for(int i = 0, max = 50; i <= max; i++) {
 
+            // if i is even
+            if(i % 2 == 0) {
+                System.out.println(i);
+            }
+
+        }
     }
 
 }
